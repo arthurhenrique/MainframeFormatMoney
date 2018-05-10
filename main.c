@@ -1,8 +1,8 @@
 #include <stdio.h>
 #define MAX 10
  
-/* -> receives a string                  */
-/* <- return i, e.g: length of an string */
+/* <- receives a string                  */
+/* -> return i, e.g: length of an string */
 int strlength(char *s)
 {
     int i = 0;
@@ -13,8 +13,8 @@ int strlength(char *s)
     return i;
 }
  
-/* -> receives a string                               */
-/* <- return strFormatted, i.e: an string without dot */
+/* <- receives a string                               */
+/* -> return strFormatted, i.e: an string without dot */
 char * removeDot(char *str)
 {
     int i;
@@ -39,8 +39,8 @@ char * removeDot(char *str)
     return strFormatted;
 }
  
-/* -> receives a string                               */
-/* <- return strFormatted, i.e: an string with zeros  */
+/* <- receives a string                               */
+/* -> return strFormatted, i.e: an string with zeros  */
 /* to the left                                        */
 char * getFormatted(char *str)
 {
